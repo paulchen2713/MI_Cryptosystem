@@ -9,7 +9,7 @@ function out = matrix_addition_power(A, B)
     AB = zero * ones(Ax, Ay);
     for ir = 1:Ax
         for ic = 1:Ay
-            AB(ir, ic) = addition_power(A(ir, ic), B(ir, ic));
+            AB(ir, ic) = addition_power(A(ir, ic), B(ir, ic)); 
         end
     end
     out = AB;
