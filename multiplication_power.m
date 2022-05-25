@@ -1,7 +1,7 @@
 %
 % multiplication of numbers with power representation
 %
-function n=multiplication_power(n1,n2)
+function n = multiplication_power(n1, n2)
 global m;
 two_m=2^m;
 two_m_1=two_m-1;
@@ -16,3 +16,5 @@ else
     end
 end
 return
+
+
