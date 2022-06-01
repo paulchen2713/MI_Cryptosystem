@@ -8,4 +8,3 @@ function out = modd(i)
     end
 return
 
-
