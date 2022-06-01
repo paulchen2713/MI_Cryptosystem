@@ -1,5 +1,5 @@
 %
-% 
+% modd function
 %
 function out = modd(i)
     out = mod(i, 8);
